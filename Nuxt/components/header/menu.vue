@@ -43,7 +43,7 @@
 
       <!-- LANGUAGE TOGGLE -->
       <div style="margin-left: 20px;">
-        <button @click="toggleLang" class="lang-toggle">
+        <button @click="toggleLang" class="btn r-04 btn--theme hover--tra-white last-link lang-toggle">
           {{ currentLang === 'en' ? 'TH' : 'EN' }}
         </button>
       </div>
@@ -97,19 +97,14 @@ onBeforeUnmount(() => {
 <style scoped>
   .lang-toggle {
     position: absolute;
-    background: #0a00ce;
-    color: #1b263b;
-    border: none;
     border-radius: 5px;
-    padding: 0.3rem 0.8rem;
+    padding: 0.53rem 0.8rem;
     cursor: pointer;
-    font-weight: bold;
     top: 50%;
     transform: translateY(-50%);
+    right: -55px;
   }
   .logo-wraper{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    position: relative;
   }
 </style>

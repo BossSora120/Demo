@@ -28,3 +28,9 @@ useHead({
   },
 })
 </script>
+
+<style scoped>
+ template{
+  font-family: 'Noto Sans', sans-serif;
+ }
+</style>
